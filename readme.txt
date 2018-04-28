@@ -5,7 +5,7 @@ Tags: events, calendar, event, venue, organizer, dates, date, google maps, confe
 Donate link: http://m.tri.be/29
 Requires at least: 4.5
 Stable tag: 4.7dev
-Tested up to: 4.9.4
+Tested up to: 4.9.5
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -214,6 +214,16 @@ Some things to consider before posting on the forum:
 Still not happy? Shoot us an email to support@theeventscalendar.com or tweet to [@TheEventsCal](https://twitter.com/TheEventsCal) and tell us why. We'll do what we can to make it right.
 
 == Changelog ==
+
+= [4.6.15] TBD =
+
+* Fix - Remove organizers when an event has multiple organizers [103715]
+* Fix - Fixed the `[tribe_events]` month view pagination without the bar, and when using plain permalinks [95720]
+* Fix - Prevent `url_to_postid` to run if on the main events page to avoid query conflicts. [94328]
+
+= [4.6.14.1] 2018-04-18 =
+
+* Fix - Fixed fatal error that would sometimes arise when The Events Calendar was set to display on the front page
 
 = [4.6.14] 2018-04-18 =
 
